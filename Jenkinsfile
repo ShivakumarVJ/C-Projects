@@ -22,6 +22,7 @@ pipeline {
                 sh '''
                 sleep 6
                 echo "This is binary creation mode"
+                exit 1
                 '''
             }
         }
